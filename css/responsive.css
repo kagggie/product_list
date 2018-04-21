@@ -1,0 +1,15 @@
+@media all and (max-width: 992px){
+    .products {
+        width: 48%;
+    }
+    #product-img3 {
+        margin-left: 0;
+    }
+}
+
+@media all and (max-width: 480px){
+    .products {
+        width: 99%;
+        margin-left: 0;
+    }
+}
