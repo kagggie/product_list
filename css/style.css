@@ -7,12 +7,18 @@ body {
     box-sizing: border-box;
 }
 
+#section {
+    height: 100vh;
+    position: relative;
+}
+
 #container-img {
-    width: 99%;
+    width: 100%;
     margin: auto;
     text-align: center;
-    height: 100%;
-    margin: 170px auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .products {
@@ -23,7 +29,6 @@ body {
     width: 24%;
     display: inline-block;
     margin-left: 12px;
-    margin-top: 20px;
 }
 
 #product-img1 {
