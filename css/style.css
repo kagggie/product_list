@@ -49,14 +49,13 @@ body {
 }
 
 .mask {
-    background-color: #ff6f00;
+    background-color: rgba(255, 111, 0, 0);
     height: 100%;
-    opacity: 0;
     transition: all 0.4s;
 }
 
 .mask:hover {
-    opacity: 0.8;
+    background-color: rgba(255, 111, 0, 0.8);
 }
 
 .content {
@@ -67,7 +66,7 @@ body {
 
 .content i {
     font-size: 50px;
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0);
     position: absolute;
     transform: translateY(-50%);
     width: 100%;
@@ -75,5 +74,8 @@ body {
     left: 0;
 }
 
+.content:hover i {
+    color: rgba(255, 255, 255, 1);
+}
 
 
